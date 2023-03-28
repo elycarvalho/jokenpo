@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', arial, sans-serif;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 330px;
+	height: 450px;
+	margin: 20px auto;
+}
+
+.mensagem{
+	padding-top: 3%;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	border: 1px solid yellow;
+}
+
+.legendas{
+	width: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-maos{
+	width: 320px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.computer-hand{
+	width: 125px;
+	border: 1px solid red;
+	text-align: center;
+}
+
+.player-hand{
+	width: 125px;
+	border: 1px solid green;
+	text-align: center;
+}
+
+img{
+	width: 100px;
+	height: 120px;
+}
