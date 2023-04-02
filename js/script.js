@@ -11,7 +11,7 @@ playerHand.addEventListener('click', ()=>{
 	computerHand.innerHTML = '<img src="./img/question.png">'
 	if(index > 2){index = 0}
 	maoJogador = maos[index]
-    playerHand.innerHTML = `<img src="${maos[index]}.png">`
+    playerHand.innerHTML = `<img src="./img/${maos[index]}.png">`
     index++
     
     console.log(maoJogador)
