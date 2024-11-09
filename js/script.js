@@ -32,21 +32,27 @@ function lancaMao(){
     }
     if(maoComputador === 'scissor' && maoJogador === 'rock'){
     	mensagem.innerHTML = 'jogador venceu'
+        mensagem.style.color = 'green'
     }
     if(maoComputador === 'scissor' && maoJogador === 'paper'){
     	mensagem.innerHTML = 'computador vencer'
+        mensagem.style.color = 'blue'
     }
     if(maoComputador === 'paper' && maoJogador === 'rock'){
     	mensagem.innerHTML = 'computador venceu'
+        mensagem.style.color = 'blue'
     }
     if(maoComputador === 'paper' && maoJogador === 'scissor'){
     	mensagem.innerHTML = 'jogador venceu'
+        mensagem.style.color = 'green'
     }
     if(maoComputador === 'rock' && maoJogador === 'scissor'){
     	mensagem.innerHTML = 'computador venceu'
+        mensagem.style.color = 'blue'
     }
     if(maoComputador === 'rock' && maoJogador === 'paper'){
     	mensagem.innerHTML = 'jogador venceu'
+        mensagem.style.color = 'green'
     }
 }
 
